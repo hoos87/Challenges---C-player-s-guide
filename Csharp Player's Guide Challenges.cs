@@ -62,7 +62,7 @@ Console.WriteLine("Lord! your total score is {0}", totalScore);
 
 /*
 //----------------------------
-//==Repaiting the Clocktower==
+//==Repairing the Clocktower==
   
 
 string clockInputText = Console.ReadLine();

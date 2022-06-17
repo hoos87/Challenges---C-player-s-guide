@@ -3,6 +3,7 @@
 Point point1 = new Point(2, 4);
 Console.WriteLine("(" + point1.xCoordinate + ", " + point1.yCoordinate + ")");
 
+// created a new instance of the Point class
 Point point2 = new Point(-4, 0);
 Console.WriteLine("(" + point2.xCoordinate + ", " + point2.yCoordinate + ")");
 
@@ -18,7 +19,7 @@ class Point
     private readonly int _y;
     
 
-    // constructor (parameterless)
+    // constructor (uses parameters)
      public Point(int x, int y)
     {
         _x = x;
